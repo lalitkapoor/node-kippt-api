@@ -1,0 +1,20 @@
+{
+  "name": "node-kippt-api",
+  "version": "0.0.1",
+  "description": "kippt api client",
+  "main": "index.js",
+  "dependencies": {
+    "request": "~2.21.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "kippt"
+  ],
+  "author": " Lalit Kapoor <lalitkapoor@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "Readme.md"
+}

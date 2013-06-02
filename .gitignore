@@ -1,0 +1,17 @@
+.DS_Store
+lib-cov
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+node_modules/
+
+npm-debug.log
+
+db-setup/node_modules/
+.idea
+
+*~
