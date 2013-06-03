@@ -1,0 +1,4 @@
+var config = module.exports = {
+  username: 'KIPPT_USERNAME'
+, token: 'KIPPT_API_TOKEN'
+}
