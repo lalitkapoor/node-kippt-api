@@ -1,8 +1,11 @@
+var config = require('./config');
 var Kippt = require('./index');
 
-var client = new Kippt('USERNAME_HERE', 'API_TOKEN_HERE');
+var client = new Kippt(config.username, config.token);
 
-console.log(client);
+var cb = function (error, response, body) { 
+  (error != null) ? console.log(error, response.body) : console.log(response.body);
+};
 
-var cb = function(error, response, body) {console.log(error, response.body)};
-client.users.get({userId:'lalit'}, cb);
+client.users.get('lalit', cb);
+client.users.followers.get('lalit', cb);
